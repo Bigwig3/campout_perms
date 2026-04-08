@@ -8,7 +8,8 @@
 
 // ── Monthly config ───────────────────────────────────────────
 const WORKER_URL =
-  "https://troop1910-permission-form.YOUR-SUBDOMAIN.workers.dev";
+  "https://test.kellertroop1910.org/campout_form";
+const authenticatedUser = useAuth().user.email;
 // Paste your Cloudflare Worker URL above ↑ (printed after: npx wrangler deploy)
 
 const CAMPOUT_META = {
