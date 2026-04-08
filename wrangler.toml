@@ -1,0 +1,22 @@
+# wrangler.toml
+# Cloudflare Workers config for Troop 1910 Permission Form API
+#
+# Deploy:  npx wrangler deploy
+# Secrets: npx wrangler secret put GOOGLE_PRIVATE_KEY
+#          npx wrangler secret put GOOGLE_SERVICE_ACCOUNT_EMAIL
+#          npx wrangler secret put SPREADSHEET_ID
+
+name    = "troop1910-permission-form"
+main    = "worker.js"
+compatibility_date = "2024-09-23"
+
+# ── Non-secret vars — safe to commit ────────────────────────
+[vars]
+# UPDATE THIS EACH MONTH and run: npx wrangler deploy
+SHEET_TAB_NAME  = "April 2026"
+ALLOWED_ORIGIN  = "https://your-troop-site.org"
+
+# ── Secrets — set via CLI, never commit values ───────────────
+# npx wrangler secret put GOOGLE_SERVICE_ACCOUNT_EMAIL
+# npx wrangler secret put GOOGLE_PRIVATE_KEY
+# npx wrangler secret put SPREADSHEET_ID
