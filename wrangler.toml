@@ -14,7 +14,7 @@ pages_build_output_dir = "dist"
 [vars]
 # UPDATE THIS EACH MONTH and run: npx wrangler deploy
 SHEET_TAB_NAME  = "April 2026"
-ALLOWED_ORIGIN  = "https://campout.kellertroop1910.org"
+ALLOWED_ORIGIN  = "https://campout-perms.pages.dev"
 
 routes = [
   { pattern = "campout.kellertroop1910.org/api/submit", zone_name = "campout.kellertroop1910.org" }
