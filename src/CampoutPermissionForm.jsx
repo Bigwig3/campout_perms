@@ -8,7 +8,7 @@
 
 // ── Monthly config ───────────────────────────────────────────
 const WORKER_URL =
-  "https://ccampoutperms.broken-sky-bf3c.workers.dev";
+  "https://campoutperms.broken-sky-bf3c.workers.dev";
 const authenticatedUser = "larry.wiggins.bsa@gmail.com"
 
 // Paste your Cloudflare Worker URL above ↑ (printed after: npx wrangler deploy)
