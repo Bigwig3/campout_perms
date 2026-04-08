@@ -8,7 +8,7 @@
 
 // ── Monthly config ───────────────────────────────────────────
 const WORKER_URL =
-  "https://https://campout-perms.pages.dev/";
+  "https://campout-perms.pages.dev/";
 const authenticatedUser = useAuth().user.email;
 // Paste your Cloudflare Worker URL above ↑ (printed after: npx wrangler deploy)
 
