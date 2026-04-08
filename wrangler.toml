@@ -16,6 +16,10 @@ compatibility_date = "2024-09-23"
 SHEET_TAB_NAME  = "April 2026"
 ALLOWED_ORIGIN  = "https://test.kellertroop1910.org"
 
+routes = [
+  { pattern = "test.kellertroop1910.org/api/submit", zone_name = "test.kellertroop1910.org" }
+]
+
 # ── Secrets — set via CLI, never commit values ───────────────
 # npx wrangler secret put GOOGLE_SERVICE_ACCOUNT_EMAIL
 # npx wrangler secret put GOOGLE_PRIVATE_KEY
