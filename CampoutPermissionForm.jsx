@@ -8,7 +8,7 @@
 
 // ── Monthly config ───────────────────────────────────────────
 const WORKER_URL =
-  "https://test.kellertroop1910.org/campout_form";
+  "https://test.kellertroop1910.org/api/submit";
 const authenticatedUser = useAuth().user.email;
 // Paste your Cloudflare Worker URL above ↑ (printed after: npx wrangler deploy)
 
