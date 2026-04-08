@@ -1,0 +1,1 @@
+# campout_perms
