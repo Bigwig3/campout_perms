@@ -1,0 +1,7 @@
+name = "campoutperms"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+[vars]
+SHEET_TAB_NAME  = "April 2026"
+ALLOWED_ORIGIN  = "https://campout-perms.pages.dev"
