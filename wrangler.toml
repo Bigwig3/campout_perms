@@ -9,6 +9,7 @@
 name    = "troop1910-permission-form"
 main    = "worker.js"
 compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
 
 # ── Non-secret vars — safe to commit ────────────────────────
 [vars]
